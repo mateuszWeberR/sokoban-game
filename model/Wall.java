@@ -12,6 +12,6 @@ public class Wall extends CollisionObject {
         int dx = getX() - (getWidth() / 2);
         int dy = getY() - (getHeight() / 2);
         graphics.setColor(new Color(165, 42, 42));
-        graphics.drawRect(dx, dy, getWidth(), getHeight());
+        graphics.fillRect(dx, dy, getWidth(), getHeight());
     }
 }

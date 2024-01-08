@@ -12,7 +12,7 @@ public class Player extends CollisionObject implements Movable {
         int dx = getX() - (getWidth() / 2);
         int dy = getY() - (getHeight() / 2);
         graphics.setColor(Color.BLUE);
-        graphics.drawOval(dx, dy, getWidth(), getHeight());
+        graphics.fillOval(dx, dy, getWidth(), getHeight());
     }
 
     @Override
